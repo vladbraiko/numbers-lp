@@ -1,0 +1,134 @@
+.advantages {
+  padding: 25px 0 50px 0;
+  margin: 0 auto;
+
+  @media (min-width: 1280px) {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .advantages_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.section-title {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+
+  @media (min-width: 1280px) {
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding-bottom: 50px;
+  }
+}
+
+.advantages_image {
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  margin-bottom: 30px;
+
+  @media (min-width: 1280px) {
+    max-height: 450px;
+  }
+}
+
+.advanteges_car-number-image {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  background: no-repeat url(images/bmw-number.png);
+  background-size: 100px;
+  bottom: 360px;
+  left: 120px;
+
+  @media (min-width: 1280px) {
+    width: 210px;
+    height: 50px;
+    background-size: 210px;
+    bottom: 130px;
+    left: 295px;
+  }
+}
+
+.advantages_list {
+  list-style: none;
+
+  @media (min-width: 1280px) {
+    width: 400px;
+    margin-right: 100px;
+  }
+}
+
+.advantages_list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  &:not(:last-child) {
+    margin-bottom: 50px;
+
+    @media (min-width: 1280px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  &::before {
+    padding: 4px 30px 0 0;
+  }
+}
+
+.icon1::before {
+  content: url(images/icons/times.png);
+}
+
+.icon2::before {
+  content: url(images/icons/document.png);
+}
+
+.icon3::before {
+  content: url(images/icons/business.png);
+}
+
+.advantages_list-item-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+
+  &::after {
+    content: ' ';
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 10px 0 0 0;
+    background-color: $primary-red-color;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+}
+
+.advantages_list-item-description {
+  font-size: 12px;
+  font-weight: 300;
+
+  @media (min-width: 1280px) {
+    width: 328px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+}

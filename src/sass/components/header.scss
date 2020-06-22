@@ -1,0 +1,225 @@
+.wrapper {
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: 1280px) {
+    width: 450px;
+    margin-left: 70px;
+  }
+}
+
+.header_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  @media (min-width: 1280px) {
+    min-height: 80px;
+  }
+}
+
+.header_logo {
+  width: 60px;
+  height: 20px;
+
+  @media (min-width: 1280px) {
+    width: 144px;
+    height: 50px;
+  }
+}
+
+.header_contacts-number {
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 3px;
+
+  @media (min-width: 1280px) {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 800;
+    margin-right: 35px;
+  }
+}
+
+.header_contacts-button {
+  border: 2px solid $primary-red-color;
+  background-color: $primary-white-font-color;
+  width: 80px;
+  border-radius: 30px;
+  padding: 4px;
+  font-weight: 600;
+  cursor: pointer;
+
+  @media (min-width: 1280px) {
+    width: 270px;
+    height: 61px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 100px;
+  }
+}
+
+.header_article {
+  background: no-repeat url('images/mercedes.png');
+  background-position: left;
+  background-size: cover;
+  background-color: #e9e9e9;
+  padding: 10px 0 30px 0;
+
+  @media (min-width: 1280px) {
+    width: 60%;
+    min-height: 855px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.header_navigation-list {
+  list-style: none;
+  padding-bottom: 30px;
+  text-align: center;
+
+  @media (min-width: 1280px) {
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+}
+
+.header_navigation-item {
+  padding: 7px 0 7px 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary-red-color;
+    color: $primary-white-font-color;
+  }
+
+  @media (min-width: 1280px) {
+    width: 144px;
+    height: 118px;
+    padding: 0 0 0 0;
+    line-height: 120px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
+}
+
+.header_main-primary-text {
+  font-size: 22px;
+
+  @media (min-width: 1280px) {
+    width: 720px;
+    min-height: 263px;
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 900;
+    margin: 0 0 30px 10px;
+  }
+}
+
+.red-letters {
+  color: red;
+}
+
+.header_main-secondary-text {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px 0 10px 0px;
+
+  @media (min-width: 1280px) {
+    width: 745px;
+    min-height: 58px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 10px;
+  }
+}
+
+.header_aside {
+  background: no-repeat url('images/BlueCar.png');
+  background-position: center;
+  background-size: cover;
+  background-color: #172c42;
+  background-blend-mode: multiply;
+  opacity: 0.85;
+  padding: 40px 0 40px 0;
+
+  @media (min-width: 1280px) {
+    width: 40%;
+    min-height: 600px;
+    padding: 150px 0 0 0;
+  }
+}
+
+.order-form_laber {
+  color: $primary-white-font-color;
+
+  @media (min-width: 1280px) {
+    width: 344px;
+    height: 76px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+}
+
+.order-form_input {
+  display: block;
+  width: 270px;
+  height: 25px;
+  font-size: 10px;
+  color: #000000;
+  padding-left: 15px;
+  margin: 2px 0 15px 0;
+  border: none;
+
+  @media (min-width: 1280px) {
+    width: 400px;
+    height: 63px;
+    margin: 10px 0 30px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+}
+
+.order-form_button {
+  border: none;
+  background-color: $primary-red-color;
+  color: $primary-white-font-color;
+  -webkit-box-shadow: 0px 18px 14px rgba(255, 33, 59, 0.25);
+  box-shadow: 0px 18px 14px rgba(255, 33, 59, 0.25);
+  font-weight: 600;
+  cursor: pointer;
+  width: 220px;
+  height: 40px;
+  margin-top: 15px;
+
+  @media (min-width: 1280px) {
+    width: 344px;
+    height: 76px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+}
